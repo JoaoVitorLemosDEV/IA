@@ -1,34 +1,34 @@
 {
     "acoes": [
         {
-            "nome": "Ligar",
-            "dispositivos": ["Lâmpada", 
-                            "Ventilador", 
+            "nome": "ligar",
+            "dispositivos": ["lâmpada", 
+                            "ventilador", 
                             "televisão"]
         },
         {
-            "nome": "Desligar",
-            "dispositivos": ["Lâmpada", 
-                            "Ventilador", 
+            "nome": "desligar",
+            "dispositivos": ["lâmpada", 
+                            "ventilador", 
                             "televisão"]
         },
         {
-            "nome": "Acender",
-            "dispositivos": ["Lâmpada"]
+            "nome": "acender",
+            "dispositivos": ["lâmpada"]
         },
         {
-            "nome": "Apagar",
-            "dispositivos": ["Lâmpada"]
+            "nome": "apagar",
+            "dispositivos": ["lâmpada"]
         },
         {
-            "nome": "Tocar",
-            "dispositivos": ["Som", 
-                            "Música"]
+            "nome": "tocar",
+            "dispositivos": ["som", 
+                            "música"]
         },
         {
-            "nome": "Parar",
-            "dispositivos": ["Som", 
-                            "Música"]
+            "nome": "parar",
+            "dispositivos": ["som", 
+                            "música"]
         }
     ]
 }
