@@ -23,13 +23,6 @@ CONFIGURACOES = "config.json"
 if not os.path.exists(CAMINHO_AUDIO_FALAS):
     os.makedirs(CAMINHO_AUDIO_FALAS)
 
-PALAVRAS_CHAVE = {
-    "mostrar_previsao": ["previsão", "clima", "tempo", "hoje"],
-    "vai_chover": ["chover", "chuva", "amanhã"],
-    "temperatura_atual": ["temperatura", "sensação", "atual", "momento"],
-    "atualizar_dados": ["atualizar", "dados", "informações", "previsão"]
-}
-
 def iniciar(dispositivo):
     processador, modelo = iniciar_modelo(MODELOS[0], dispositivo)
     modelo_iniciado = processador is not None and modelo is not None
@@ -84,7 +77,7 @@ def validar_comando(comando, acoes):
     for acao_prevista in acoes:
         acao = acao_prevista["nome"]
         dispositivo = acao_prevista["dispositivos"][0]
-        if any(token.lower() in PALAVRAS_CHAVE[acao] for token in comando):
+        if any(token.lower() in acao_prevista["palavras_chave"] for token in comando):
             return True, acao, dispositivo
     return False, None, None
 

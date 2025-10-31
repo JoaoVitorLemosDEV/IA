@@ -6,7 +6,6 @@ MODELO = "lgris/wav2vec2-large-xlsr-open-brazilian-portuguese-v2"
 TAXA_AMOSTRAGEM = 16_000
 
 def iniciar_modelo(nome_modelo=MODELO, dispositivo="cpu"):
-    """Inicializa o modelo e o processador de áudio."""
     try:
         processador = Wav2Vec2Processor.from_pretrained(nome_modelo)
         modelo = Wav2Vec2ForCTC.from_pretrained(nome_modelo).to(dispositivo)

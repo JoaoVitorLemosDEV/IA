@@ -43,5 +43,24 @@ def obter_temperatura_atual():
     sensacao = resp.get("main", {}).get("feels_like", 0)
     return temp, sensacao
 
+import requests
+
 def atualizar_dados():
-    pass
+    """Atualiza os dados meteorológicos em cache."""
+    url_atual = f"http://api.openweathermap.org/data/2.5/weather?q={CIDADE}&appid={API_KEY}&units=metric&lang=pt_br"
+    url_previsao = f"http://api.openweathermap.org/data/2.5/forecast?q={CIDADE}&appid={API_KEY}&units=metric&lang=pt_br"
+
+    try:
+        dados_atuais = requests.get(url_atual).json()
+
+        dados_previsao = requests.get(url_previsao).json()
+
+        global cache_dados_atuais, cache_dados_previsao
+        cache_dados_atuais = dados_atuais
+        cache_dados_previsao = dados_previsao
+
+        print("Dados meteorológicos atualizados com sucesso!")
+
+    except Exception as e:
+        print(f"Erro ao atualizar dados: {str(e)}")
+

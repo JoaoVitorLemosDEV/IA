@@ -1,8 +1,24 @@
 {
-    "acoes": [
-        {"nome": "mostrar_previsao", "dispositivos": ["clima"]},
-        {"nome": "vai_chover", "dispositivos": ["clima"]},
-        {"nome": "temperatura_atual", "dispositivos": ["clima"]},
-        {"nome": "atualizar_dados", "dispositivos": ["clima"]}
-    ]
+  "acoes": [
+    {
+      "nome": "mostrar_previsao",
+      "dispositivos": ["clima"],
+      "palavras_chave": ["previsão", "clima", "tempo", "hoje"]
+    },
+    {
+      "nome": "vai_chover",
+      "dispositivos": ["clima"],
+      "palavras_chave": ["chover", "chuva", "amanhã"]
+    },
+    {
+      "nome": "temperatura_atual",
+      "dispositivos": ["clima"],
+      "palavras_chave": ["temperatura", "sensação", "atual", "momento"]
+    },
+    {
+      "nome": "atualizar_dados",
+      "dispositivos": ["clima"],
+      "palavras_chave": ["atualizar", "dados", "informações", "previsão"]
+    }
+  ]
 }
