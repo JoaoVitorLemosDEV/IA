@@ -1,0 +1,8 @@
+{
+    "acoes": [
+        {"nome": "mostrar_previsao", "dispositivos": ["clima"]},
+        {"nome": "vai_chover", "dispositivos": ["clima"]},
+        {"nome": "temperatura_atual", "dispositivos": ["clima"]},
+        {"nome": "atualizar_dados", "dispositivos": ["clima"]}
+    ]
+}
