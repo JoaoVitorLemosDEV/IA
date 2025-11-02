@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "KEY_DA_SUA_API_AQUI"
+API_KEY = "KEY_DA_API_AQUI"
 CIDADE = "Vitória da Conquista,BR"
 
 def iniciar_meteorologia():
