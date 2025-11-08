@@ -3,7 +3,9 @@ from chatterbot.trainers import ListTrainer
 import json
 
 CONVERSAS = [
-    "chat/conversas/saudacoes.json"
+    "chat/conversas/saudacoes.json",
+    "chat/conversas/informacoes_basicas.json",
+    "chat/conversas/sistemas_de_informacao.json"
 ]
 
 NOME_ROBO = "IFBA-Bot"
