@@ -4,7 +4,7 @@ NOME_ROBO = "IFBA-Bot"
 CONFIANCA_MINIMA = 0.60
 
 def configurar_robo():
-    robo = ChatBot(NOME_ROBO)
+    robo = ChatBot(NOME_ROBO, read_only = True)
     
     return robo
 

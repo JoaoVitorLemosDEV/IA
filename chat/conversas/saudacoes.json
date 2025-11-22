@@ -1,7 +1,7 @@
 {
     "conversas": [
         {
-            "mensagens": ["oi", "olá", "tudo bem?", "como vai?"],
+            "mensagens": ["oi", "olá", "tudo bem?", "como vai?", "olá, como vai?"],
             "resposta": "Olá, sou o IFBA-Bot, um robô de atendimento do IFBA, o que você gostaria de saber sobre o IFBA?"
         },
         {
