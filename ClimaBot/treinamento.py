@@ -3,7 +3,8 @@ from chatterbot.trainers import ListTrainer
 import json
 
 CONVERSAS = [
-    "conversas\informacoes_meterologicas.json"
+    "conversas\informacoes_meterologicas.json",
+    "conversas\saudacoes.json"
 ]
 
 NOME_ROBO = "ClimaBot"

@@ -1,0 +1,20 @@
+{
+    "conversas": [
+        {
+            "mensagens": ["oi", "olá", "tudo bem?", "como vai?", "oi, tudo bem?", "olá, como vai?"],
+            "resposta": "Olá, sou o ClimaBot, um robô de atendimento para informações sobre o clima. O que você gostaria de saber?" 
+        },
+        {
+            "mensagens": ["bom dia", "olá, bom dia", "oi, bom dia"],
+            "resposta": "Bom dia, sou o ClimaBot, um robô de atendimento para informações sobre o clima. O que você gostaria de saber?" 
+        },
+        {
+            "mensagens": ["boa tarde", "olá, boa tarde", "oi, boa tarde"],
+            "resposta": "Boa tarde, sou o ClimaBot, um robô de atendimento para informações sobre o clima. O que você gostaria de saber?" 
+        },
+        {
+            "mensagens": ["boa noite", "olá, boa noite", "oi, boa noite"],
+            "resposta": "Boa noite, sou o ClimaBot, um robô de atendimento para informações sobre o clima. O que você gostaria de saber?" 
+        }
+    ] 
+}
