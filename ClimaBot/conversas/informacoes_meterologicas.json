@@ -1,0 +1,40 @@
+{
+  "conversas": [
+    {
+      "mensagens": [
+        "vai chover amanhã?",
+        "tem previsão de chuva para amanhã?",
+        "amanhã vai ter chuva?",
+        "o tempo indica chuva amanhã?"
+      ],
+      "resposta": "A previsão indica possibilidade de chuva amanhã."
+    },
+    {
+      "mensagens": [
+        "qual a temperatura atual?",
+        "quanto está a temperatura agora?",
+        "qual é a temperatura no momento?",
+        "está fazendo quantos graus agora?"
+      ],
+      "resposta": "A temperatura atual é de 27ºC."
+    },
+    {
+      "mensagens": [
+        "mostrar previsão de hoje",
+        "qual é a previsão do tempo para hoje?",
+        "como está o clima hoje?",
+        "me diga a previsão de hoje"
+      ],
+      "resposta": "A previsão para hoje é de céu parcialmente nublado."
+    },
+    {
+      "mensagens": [
+        "atualizar dados meteorológicos",
+        "atualizar informações do clima",
+        "puxar os dados meteorológicos mais recentes",
+        "fazer a atualização das informações do tempo"
+      ],
+      "resposta": "Os dados meteorológicos foram atualizados com sucesso."
+    }
+  ]
+}
